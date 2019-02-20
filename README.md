@@ -1,28 +1,6 @@
 # Viper-Architecture
 
 
-VIPER
-
-View,
-
-Interactor,
-
-Presenter,
-
-Entity,
-
-Router
-
-View : Responsibility of view is to send user actions to the presenter and show whatever the presenter asks it to.
-
-Interactor : It has the business logic for the app specified by a use case.
-
-Presenter : Contains the view logic for preparing content for display and for reacting to user interactions.
-
-Entity : The Basic model for objects used by interaction.
-
-Router : Contains logic for routing of screens.
-
 Why VIPER?
 
 Our traditional MVC and MVM architecture that we are all acquainted with have one primary problem i.e Bulky Controllers. Since all our business logic has been dumped in the controller, at the end we see a huge and fat controller which becomes difficult to manage if our project is to be scalable. So these are the primary reasons why we need VIPER:
