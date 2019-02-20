@@ -1,12 +1,16 @@
 # Viper-Architecture
-Simple Viper Architecture Demo
+
 
 VIPER
 
 V — View,
+
 I — Interactor,
+
 P — Presenter,
+
 E — Entity,
+
 R — Router
 
 View — Responsibility of view is to send user actions to the presenter and show whatever the presenter asks it to.
